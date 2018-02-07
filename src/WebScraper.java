@@ -29,8 +29,18 @@ public class WebScraper {
 
         Scanner scan = new Scanner(System.in);
         String url = scan.nextLine();
- 
+
         System.out.println(urlToString(url));
+        String[] lines = url.split("\n");
+
+        int countNewLines = ;
+
+        String[] trimmedLines = new String[countNewLines];
+        for (int i = 0; i < trimmedLines.length; i++) {
+            trimmedLines[i] = trimmedLines[i].trim();
+        }
+
     }
 }
+
 

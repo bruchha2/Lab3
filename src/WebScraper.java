@@ -29,7 +29,7 @@ public class WebScraper {
 
         Scanner scan = new Scanner(System.in);
         String url = scan.nextLine();
-
+ 
         System.out.println(urlToString(url));
     }
 }
